@@ -43,9 +43,9 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>> {
     public void insert(AnyType x){  //向树中插入值
        insert(x,root);
     }
-    /*public void remove(AnyType x){   //移除某个值
+    public void remove(AnyType x){   //移除某个值
         remove(x,root);
-    }*/
+    }
     public void printTree(){     //打印输出整颗树
 
     }
