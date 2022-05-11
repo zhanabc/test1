@@ -90,16 +90,16 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>> {
             ;  //树中有该值不需要做任何事情
         return t;
     }
-    private BinaryNode<AnyType> remove(AnyType x,BinaryNode<AnyType> t){
-        if (t==null)
-            return t; //没有发现元素x,不做任何操作
-        int com=x.compareTo(t.Element);
-        if (com>0)
-            t.right=remove(x,t.right);
-        else if (com<0)
-            t.left=remove(x,t.left);
-        else if
-
-    }
+//    private BinaryNode<AnyType> remove(AnyType x,BinaryNode<AnyType> t){
+//        if (t==null)
+//            return t; //没有发现元素x,不做任何操作
+//        int com=x.compareTo(t.Element);
+//        if (com>0)
+//            t.right=remove(x,t.right);
+//        else if (com<0)
+//            t.left=remove(x,t.left);
+//        else if
+//
+//    }
 
 }
